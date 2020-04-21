@@ -3,9 +3,11 @@ header {
 }
 body {
     font-family: 'Dancing Script';
-    background-color: ;
+    background-color:  beige;
     color: black;
     margin: 0;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 h1,
@@ -19,7 +21,7 @@ h6{
 
 h1 {
     line-height: 87px;
-    font-size: 80px;
+    font-size: 57px;
     height:;
     margin: 20px;
 
@@ -36,7 +38,9 @@ margin-left: 20px;
 
 .event_description {
     font-size: x-large;
-    text-align: end;
+    /* text-align: ; */
+    width: 456px;
+    direction: ltr;
 }
 .proyecto_description{
 font-size: x-large;
@@ -76,7 +80,7 @@ font-size: x-large;
 .event_image,
 .event_description
 {
-    width: 500px;
+    width: 456px;
 }
 .hero{
     height: 400px;
